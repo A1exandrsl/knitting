@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Вязаные штучки</title>
+
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Comfortaa&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Шапка сайта-->
+    <!-- navbar-inverse делает шапку темной, navbar-fixed-top прикрепляет сверху  -->
+    <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <!-- Сворачивание в кнопку при уменьшении окна -->
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+                <!-- Название -->
+                <a class="brand" href="#">Вязаные штучки</a>
+                <div class="nav-collapse collapse">
+                    <!-- Различные ссылки -->
+                    <ul class="nav pull-right">
+                        <li><a href="#">Главная страница</a></li>
+                        <li><a href="#about">Товары</a></li>
+                        <li><a href="#screenshoots">Фото</a></li>
+                        <li><a href="#features">Об Авторе</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Баннер -->
+    <div class="banner">
+        <img src="https://cs2.livemaster.ru/storage/57/ce/beee37a349005df06b3bbd4073hs--materialy-dlya-tvorchestva-pryazha-sherstyanaya-dlya-ruchnoj-.jpg"
+            alt="Главный баннер">
+        <h1>Самый лучший магазин вещей из пряжи</h1>
+        <p>Здесь вы можете купить всякие круты штучки от мастера вязания и вышивания</p>
+    </div>
+    <!-- Основной контент -->
+    <div class="container">
+        <div class="divider"></div>
+        <!-- Список товаров -->
+        <div id="about">
+            <div id="heading">
+                <h1>Товары</h1>
+                <p >Изделия из пряжи</p>
+            </div>
+            <div class="divider"></div>
+            <div class="row">
+                <div class="span3">
+                    <img src="photo_2022-03-20_14-12-01.jpg" alt="Кофта" class="img-polaroid">
+                </div>
+                <div class="span9">
+                    <p class="lead"> Супер кофта</p>
+                    <p class="lead"> Цена 10000 рублей</p>
+                    <p>Описание: </p>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="row">
+                <div class="span3">
+                    <img src="photo_2022-03-20_14-19-46.jpg" alt="Перевертыш" class="img-polaroid">
+                </div>
+                <div class="span9">
+                    <p class="lead"> Перевертыш</p>
+                    <p class="lead"> Цена 1000 рублей</p>
+                    <p>Описание: </p>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="row">
+                <div class="span3">
+                    <img src="голубой-заяц.jpg" alt="Голубой-заяц" class="img-polaroid">
+                </div>
+                <div class="span9">
+                    <p class="lead"> Голубой-заяц</p>
+                    <p class="lead"> Цена 500 рублей</p>
+                    <p>Описание: </p>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="row">
+                <div class="span3">
+                    <img src="заяц.jpg" alt="Белый заяц" class="img-polaroid">
+                </div>
+                <div class="span9">
+                    <p class="lead"> Белый заяц</p>
+                    <p class="lead"> Цена 500 рублей</p>
+                    <p>Описание: </p>
+                </div>
+            </div>
+            <div class="divider"></div>
+        </div>
+
+        <!-- Колекция фото -->
+        <div id="screenshoots">
+            <h1>Колекция фото</h1>
+            <div id="myCarousel" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="active item">
+                        <img src="злой.jpg" alt="Перевертыш злой">
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <p class="lead">Злая сторона перевертыша</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="голубой-заяц.jpg" alt="Голубой-заяц">
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <p class="lead">Голубой-заяц</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="заяц.jpg" alt="Заяц">
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <p class="lead">Белый заяц</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+                <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <!-- Об Авторе изделий -->
+        <div id="features">
+            <div id="heading">
+                <h1>Автор изделий</h1>
+            </div>
+            
+            <div class="row">
+                <div class="divider"></div>
+                <div class="span4">
+                    <img src="photo_2022-03-20_14-35-21.jpg" alt="Кот">
+                    <h3>Дарья Ласкина</h3>
+                    <ul id="social" class="inline">
+                        <li><a href="https://vk.com/id68872389" class="vk"></a></li>
+                    </ul>
+                </div>
+                <div class="span8">
+                    <p>Самый красивый кот на свете</p>
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+    </div>
+    <!-- Подвал -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="span6">
+                    <h3>О сайте</h3>
+                    <p>Этот сайт посвящен самому лучшему человеку на свете</p>
+                </div>
+                <div class="span6">
+                    <h3>Информация</h3>
+                    <p>Какая-то информация</p>
+                    <form action="" class="form-inline">
+                        <input type="text" class="input-large" placeholder="Email">
+                        <button type="submit" class="btn btn-info">Подписаться на рекламные предложения и
+                            скидки</button>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="span12">
+                    <p> <small>Slepchatov Alexandr, 2022</small></p>
+                    <ul id="social" class="inline">
+                        <li><a href="https://vk.com/slepchatov" class="vk"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write("<script src='js/jquery-1.8.3.min.js'>\x3C/script>")</script>
+    <script src="bootstrap.min.js"></script>
+    <script src="jquery.easing.1.3.js"></script>
+</body>
+
+</html>
