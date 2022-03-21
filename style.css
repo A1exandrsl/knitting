@@ -113,7 +113,7 @@ footer .span12
 
 #social li a
 {
-    background-image: url(../img/icons8-vk-в-круге-30.png);
+    background-image: url(icons8-vk-в-круге-30.png);
     background-repeat: no-repeat;
     display: block;
     height: 30px;
@@ -121,6 +121,6 @@ footer .span12
 }
 #social li a:hover
 {
-    background-image: url(../img/icons8-vk-в-круге\ colour-30.png);
+    background-image: url(icons8-vk-в-круге\ colour-30.png);
 }
 
