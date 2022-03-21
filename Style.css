@@ -1,0 +1,126 @@
+body
+{
+    padding: 20px;
+    font-family: 'Comfortaa', cursive;
+}
+
+h1,h2,h3,h4
+{
+    font-family: 'Comfortaa', cursive;
+}
+
+h1
+{
+    color: burlywood;
+}
+
+.divider
+{
+    background-image: url(../img/divider-pattern.png);
+    background-repeat: repeat-x;
+    height: 4px;
+    width: 100%;
+}
+
+/* Стиль навигации */
+
+.navbar .brand
+{
+    font-family: 'Bad Script', cursive;
+    font-size: 28px;
+}
+
+/* Стиль баннера*/
+
+.banner
+{
+    text-align: center;
+}
+
+.banner img
+{
+max-height: 500px;
+}
+
+
+/* Стиль сайта */
+
+#heading, #screenshoots, #features
+{
+    text-align: center;
+    padding: 10px 0px;
+}
+
+#about, #features div.row
+{
+    padding: 20px 0px;
+}
+
+#features img, p
+{
+    padding: 20px;
+}
+
+#features p
+{
+    text-align: left;
+}
+
+#screenshoots h1
+{
+    padding-bottom: 30px;
+}
+
+/* Caorusel Style*/
+
+.carousel-inner
+{
+    max-width: 500px;
+    width: auto;
+    position: relative;
+    right: -50%;
+    transform: translate(-50%,0);  
+}
+
+.carousel img 
+{
+    max-width: 500px;
+    width: auto;
+    position: relative;
+    right: -50%;
+    transform: translate(-50%,0);
+}
+
+.carousel-caption 
+{
+    max-width: 500px;
+}
+
+
+
+/* Footer */
+
+footer
+{
+    background-color: aliceblue;
+    color: black;
+}
+
+footer .span12
+{
+    text-align: center;
+}
+
+#social li a
+{
+    background-image: url(../img/icons8-vk-в-круге-30.png);
+    background-repeat: no-repeat;
+    display: block;
+    height: 30px;
+    width: 30px;
+}
+#social li a:hover
+{
+    background-image: url(../img/icons8-vk-в-круге\ colour-30.png);
+}
+
